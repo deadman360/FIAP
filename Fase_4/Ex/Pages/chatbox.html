@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com IA</title>
+     <link rel="stylesheet" href="/Fase_4/Ex/CSS/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+        }
+        .card {
+            background-color: #1f1f1f;
+            border: none;
+            border-radius: 12px;
+        }
+        .card-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: #292929;
+            border-bottom: 1px solid #333;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .btn-custom {
+            background-color: #6c63ff;
+            color: #ffffff;
+            border-radius: 8px;
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+        .btn-custom:hover {
+            background-color: #5a54e7;
+        }
+        .suggestions {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .btn-outline-primary{
+            border-color: #6610f2;
+            margin: 10px auto;
+        }
+        }
+        .btn-outilne-primary:hover {
+            background-color: #6610f2;
+            border-color: #6610f2;
+        }
+        .card-header{
+            color: #6610f2
+        }
+        suge
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                Pergunte para a I.A
+            </div>
+            <div class="card-body">
+                <input type="text" class="form-control mb-3" placeholder="Digite sua pergunta aqui..." />
+                <button class="btn btn-custom mb-4">Enviar Pergunta</button>
+                <div class="suggestions">
+                    <div class="btn btn-outline-primary bg-dark">"Como posso economizar 20% do meu orçamento atual?"</div>
+                    <div class="btn btn-outline-primary bg-dark">"Qual o saldo projetado para os próximos 3 meses?"</div>
+                    <div class="btn btn-outline-primary bg-dark">"Quando vou conseguir comprar um Civic?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Fase_4/Ex/JS/bootstrap.min.js"></script>
+</body>
+</html>
